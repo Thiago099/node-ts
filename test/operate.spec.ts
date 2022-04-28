@@ -1,4 +1,4 @@
-import { operate } from './operate';
+import { operate } from '../src/operate';
 describe("operate.ts", () => {
     test("sum", () => {
         expect(operate(1, 2, '+')).toBe(3);
