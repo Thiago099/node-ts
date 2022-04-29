@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node build/index.js",
+    "start": "nodemon src/index.ts",
     "build": "tsc",
     "test": "jest"
   },
@@ -13,7 +13,9 @@
   "devDependencies": {
     "@types/jest": "^27.4.1",
     "jest": "^27.0.0",
+    "nodemon": "^2.0.16",
     "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
     "typescript": "^4.6.4"
   }
 }
